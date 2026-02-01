@@ -32,7 +32,7 @@ const LinkBox: React.FC<ImageCardProps> = ({
     <div className={custumeClass} onClick={onClick}>
       <div className={textClass}>
         <div >&lt;<span>{label}</span>&gt;</div>
-        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span>{text}</span></div>
+        <div >&nbsp;&nbsp;&nbsp;&nbsp;<span className='text-xl'>{text}</span></div>
         <div >&lt;&#47;<span>{label}</span>&gt;</div>
       </div>
     </div>

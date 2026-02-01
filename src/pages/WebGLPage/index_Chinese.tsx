@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import LinkBox from '@/UIComponents/LinkBox';
@@ -14,8 +15,8 @@ const WebGLPage: React.FC = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 justify-items-center'>
         <Link to={baseUrl + '/basic-pipeline/triangle'}>
           <LinkBox
-            text='Triangle Rendering'
-            label='RnderPiplin'
+            text='三角形渲染'
+            label='基础渲染管线'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -24,8 +25,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/basic-pipeline/color'}>
           <LinkBox
-            text='Color Interpolation'
-            label='RnderPiplin'
+            text='颜色插值'
+            label='基础渲染管线'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -34,8 +35,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/basic-pipeline/texture'}>
           <LinkBox
-            text='Texture Mapping'
-            label='RnderPiplin'
+            text='纹理映射'
+            label='基础渲染管线'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -44,8 +45,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/basic-pipeline/transform'}>
           <LinkBox
-            text='Transform Matrix'
-            label='RnderPiplin'
+            text='变换矩阵'
+            label='基础渲染管线'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -54,8 +55,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/basic-pipeline/lighting'}>
           <LinkBox
-            text='Basic Lighting'
-            label='RnderPiplin'
+            text='基础光照'
+            label='基础渲染管线'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -64,8 +65,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/texture-system/loading'}>
           <LinkBox
-            text='Texture Loading'
-            label='Texture Sys'
+            text='纹理加载'
+            label='纹理系统'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -74,8 +75,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/texture-system/multiple'}>
           <LinkBox
-            text='Multiple Textures'
-            label='Texture Sys'
+            text='多纹理混合'
+            label='纹理系统'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -84,8 +85,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/texture-system/animation'}>
           <LinkBox
-            text='Texture Animation'
-            label='Texture Sys'
+            text='纹理动画'
+            label='纹理系统'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -94,8 +95,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         {/* <Link to={baseUrl + '/texture-system/normal'}>
           <LinkBox
-            text='Normal Mapping'
-            label='Texture Sys'
+            text='法线贴图'
+            label='纹理系统'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -104,8 +105,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/texture-system/environment'}>
           <LinkBox
-            text='Environment Mapping'
-            label='Texture Sys'
+            text='环境贴图'
+            label='纹理系统'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -114,8 +115,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/texture-system/video'}>
           <LinkBox
-            text='Video Texture'
-            label='Texture Sys'
+            text='视频纹理'
+            label='纹理系统'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
@@ -124,8 +125,8 @@ const WebGLPage: React.FC = () => {
         </Link>
         <Link to={baseUrl + '/texture-system/cube-map'}>
           <LinkBox
-            text='Cube Map'
-            label='Texture Sys'
+            text='立方体贴图'
+            label='纹理系统'
             color="text-blue-800"
             borderColor="border-blue-900"
             width="w-60"
