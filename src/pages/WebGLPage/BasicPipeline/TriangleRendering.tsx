@@ -88,7 +88,6 @@ const TriangleRendering: React.FC = () => {
         className="w-full h-full"
         width={800}
         height={600}
-        style={{ border: '1px solid black' }}
       />
       <div className="description fixed bottom-0 left-0 p-4">
         {/* <h1>三角形渲染</h1> */}
