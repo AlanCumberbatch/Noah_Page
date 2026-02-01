@@ -90,11 +90,11 @@ const TriangleRendering: React.FC = () => {
         height={600}
         style={{ border: '1px solid black' }}
       />
-      <div className="description fixed bottom-0 left-0">
-        <h1>三角形渲染</h1>
-        <h2>说明</h2>
-        <p>这个demo展示了WebGL中最基础的三角形渲染。</p>
-        <p>主要步骤：</p>
+      <div className="description fixed bottom-0 left-0 p-4">
+        {/* <h1>三角形渲染</h1> */}
+        {/* <h2>说明</h2> */}
+        {/* <p>这个demo展示了WebGL中最基础的三角形渲染。</p> */}
+        {/* <p>主要步骤：</p>
         <ol>
           <li>创建WebGL上下文</li>
           <li>编写顶点和片段着色器</li>
@@ -103,7 +103,7 @@ const TriangleRendering: React.FC = () => {
           <li>创建缓冲区并绑定数据</li>
           <li>设置视口和清除画布</li>
           <li>绘制三角形</li>
-        </ol>
+        </ol> */}
       </div>
     </div>
   );

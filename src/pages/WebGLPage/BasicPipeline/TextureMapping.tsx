@@ -133,16 +133,10 @@ const TextureMapping: React.FC = () => {
   return (
     <div className="demo-container w-screen h-screen">
       <canvas ref={canvasRef} className="w-full h-full" width={400} height={400} />
-      <div className="fixed bottom-0 left-0">
-        <h2>纹理映射演示</h2>
-        <p>这个demo展示了WebGL中的纹理映射效果。我们创建了一个2x2像素的纹理，并将其映射到一个矩形上。</p>
+      <div className="fixed bottom-0 left-0 p-4">
+        {/* <p>这个demo展示了WebGL中的纹理映射效果。我们创建了一个2x2像素的纹理，并将其映射到一个矩形上。</p> */}
       </div>
     </div>
-      // <canvas ref={canvasRef} width={400} height={400} />
-      // <h2>纹理映射演示</h2>
-      // <p>这个demo展示了WebGL中的纹理映射效果。我们创建了一个2x2像素的纹理，并将其映射到一个矩形上。</p>
-
-      // </div >
   );
 };
 

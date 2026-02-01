@@ -103,9 +103,8 @@ const ColorInterpolation: React.FC = () => {
   return (
     <div className="demo-container w-screen h-screen">
       <canvas ref={canvasRef} className="w-full h-full" width={400} height={400} />
-      <div className="fixed bottom-0 left-0">
-        <h2>颜色插值演示</h2>
-        <p>这个demo展示了WebGL中的颜色插值效果。三个顶点分别设置为红、绿、蓝三种颜色，WebGL会自动在三角形内部进行颜色插值。</p>
+      <div className="fixed bottom-0 left-0 p-4">
+        {/* <p>这个demo展示了WebGL中的颜色插值效果。三个顶点分别设置为红、绿、蓝三种颜色，WebGL会自动在三角形内部进行颜色插值。</p> */}
       </div>
     </div>
   );

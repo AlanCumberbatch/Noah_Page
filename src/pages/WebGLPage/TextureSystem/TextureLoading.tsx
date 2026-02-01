@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 const TextureLoading: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -194,21 +194,27 @@ const TextureLoading: React.FC = () => {
   }, []);
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className='px-4 md:px-8 min-h-screen flex flex-col'>
-      <div className='h-12'></div>
-      <div className='flex flex-col items-center justify-center flex-1'>
-        <canvas
-          ref={canvasRef}
-          width={512}
-          height={512}
-          className='border border-gray-300'
-        />
-      </div>
-      <div className="fixed bottom-0 left-0">
-        <h2>纹理加载演示</h2>
-        <p>这个demo展示了WebGL中的纹理加载和显示。我们创建了一个简单的着色器程序，加载了一张图片作为纹理，并将其显示在一个四边形上。</p>
-      </div>
-    </motion.div>
+    // <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className='px-4 md:px-8 min-h-screen flex flex-col'>
+    //   <div className='h-12'></div>
+    //   <div className='flex flex-col items-center justify-center flex-1'>
+    //     <canvas
+    //       ref={canvasRef}
+    //       width={512}
+    //       height={512}
+    //       className='border border-gray-300'
+    //     />
+    //   </div>
+    //   <div className="fixed bottom-0 left-0">
+    //     <h2>纹理加载演示</h2>
+    //     <p>这个demo展示了WebGL中的纹理加载和显示。我们创建了一个简单的着色器程序，加载了一张图片作为纹理，并将其显示在一个四边形上。</p>
+    //   </div>
+    // </motion.div>
+     <div className="demo-container w-screen h-screen py-20 px-4" >
+     <canvas ref={canvasRef} className="w-full h-full" width={400} height={400} />
+     <div className="fixed bottom-0 left-0 p-4">
+       {/* <p>这个demo展示了WebGL中的纹理加载和显示。我们创建了一个简单的着色器程序，加载了一张图片作为纹理，并将其显示在一个四边形上。</p> */}
+     </div>
+   </div>
   );
 };
 

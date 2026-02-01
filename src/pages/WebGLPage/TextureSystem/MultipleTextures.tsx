@@ -179,21 +179,30 @@ const MultipleTextures: React.FC = () => {
   }, []);
 
   return (
-    <div className="demo-container min-h-screen flex flex-col">
-      <div className='flex flex-col items-center justify-center flex-1'>
-        <canvas
-          ref={canvasRef}
-          width={512}
-          height={512}
-          style={{ border: '1px solid #ccc' }}
-        />
-      </div>
-      <div className="fixed bottom-0 left-0">
-        <h2>多纹理混合</h2>
-        <p>这个demo展示了WebGL中的多纹理混合。我们创建了两个纹理：</p>
-        <p>一个渐变纹理和一个棋盘格纹理，然后在片段着色器中将它们混合在一起。</p>
-      </div>
-    </div>
+    // <div className="demo-container min-h-screen flex flex-col">
+    //   <div className='flex flex-col items-center justify-center flex-1'>
+    //     <canvas
+    //       ref={canvasRef}
+    //       width={512}
+    //       height={512}
+    //       style={{ border: '1px solid #ccc' }}
+    //     />
+    //   </div>
+    //   <div className="fixed bottom-0 left-0">
+    //     <h2>多纹理混合</h2>
+    //     <p>这个demo展示了WebGL中的多纹理混合。我们创建了两个纹理：</p>
+    //     <p>一个渐变纹理和一个棋盘格纹理，然后在片段着色器中将它们混合在一起。</p>
+    //   </div>
+    // </div>
+     <div className="demo-container w-screen h-screen py-20 px-4" >
+     <canvas ref={canvasRef} className="w-full h-full" width={400} height={400} />
+     <div className="fixed bottom-0 left-0 p-4">
+      {/* <p>这个demo展示了WebGL中的多纹理混合。</p>
+      <p>我们创建了两个纹理：</p>
+      <p>一个渐变纹理和一个棋盘格纹理，</p>
+      <p>然后在片段着色器中将它们混合在一起。</p> */}
+     </div>
+   </div>
   );
 };
 

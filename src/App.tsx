@@ -84,7 +84,7 @@ function App() {
             <li><Link to={baseUrl + '/webgpu'}>WebGPU</Link></li>
           </NavLinks>
         </NavContainer> */}
-        <nav className='flex h-12 items-center text-gray-800 px-4 md:px-8 shadow-md fixed'>
+        <nav className='flex h-12 items-center text-gray-800 px-4 shadow-md fixed w-screen' style={{ background: 'linear-gradient(to top, rgba(36, 36, 36, 0.2), rgba(36, 36, 36, 1))' }}>
           <ul
             id="navigation"
             className="flex flex-grow items-center h-12 text-gray-800 space-x-4 md:space-x-8"

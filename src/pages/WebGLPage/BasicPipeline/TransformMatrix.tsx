@@ -142,9 +142,8 @@ const TransformMatrix: React.FC = () => {
   return (
     <div className="demo-container w-screen h-screen">
       <canvas ref={canvasRef} className="w-full h-full" width={400} height={400} />
-      <div className="fixed bottom-0 left-0">
-        <h2>变换矩阵演示</h2>
-        <p>这个demo展示了WebGL中的变换矩阵效果。三角形会进行旋转、平移和缩放变换。</p>
+      <div className="fixed bottom-0 left-0 p-4">
+        {/* <p>这个demo展示了WebGL中的变换矩阵效果。三角形会进行旋转、平移和缩放变换。</p> */}
       </div>
     </div>
 

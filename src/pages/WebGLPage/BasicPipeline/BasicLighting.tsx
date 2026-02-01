@@ -180,9 +180,8 @@ const BasicLighting: React.FC = () => {
   return (
     <div className="demo-container w-screen h-screen" >
       <canvas ref={canvasRef} className="w-full h-full" width={400} height={400} />
-      <div className="fixed bottom-0 left-0">
-        <h2>基础光照演示</h2>
-        <p>这个demo展示了WebGL中的基础光照效果。立方体会旋转，并受到来自右上方的光照影响。</p>
+      <div className="fixed bottom-0 left-0 p-4">
+        {/* <p>这个demo展示了WebGL中的基础光照效果。立方体会旋转，并受到来自右上方的光照影响。</p> */}
       </div>
     </div>
   );

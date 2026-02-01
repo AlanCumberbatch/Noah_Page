@@ -113,11 +113,12 @@ const UIPage: React.FC = () => {
   ];
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+    // <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+    <div>
 
-      <div className='h-12'></div>
+      {/* <div className='h-12'></div> */}
 
-      <div>
+      <div className='px-4 pt-20'>
         {UIComponents.map((component, index) => (
           <div style={wrapClass} key={component.name + index}>
             <h3 style={wrapTitleClass}>{component.name}</h3>
@@ -130,7 +131,7 @@ const UIPage: React.FC = () => {
         // 待定
         </div> */}
 
-    </motion.div>
+    </div>
   );
 }
 

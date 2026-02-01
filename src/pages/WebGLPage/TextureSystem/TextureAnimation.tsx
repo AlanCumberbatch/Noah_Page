@@ -145,21 +145,27 @@ const TextureAnimation: React.FC = () => {
   }, []);
 
   return (
-    <div className="demo-container  min-h-screen flex flex-col">
-      <div className='flex flex-col items-center justify-center flex-1'>
-        <canvas
-          ref={canvasRef}
-          width={512}
-          height={512}
-          style={{ border: '1px solid #ccc' }}
-        />
-      </div>
-      <div className="fixed bottom-0 left-0">
-        <h2>纹理动画</h2>
-        <p>这个demo展示了WebGL中的纹理动画。我们通过改变纹理坐标来实现动画效果：
-        纹理会随着时间在四边形上移动和旋转。</p>
-      </div>
+    // <div className="demo-container  min-h-screen flex flex-col">
+    //   <div className='flex flex-col items-center justify-center flex-1'>
+    //     <canvas
+    //       ref={canvasRef}
+    //       width={512}
+    //       height={512}
+    //       style={{ border: '1px solid #ccc' }}
+    //     />
+    //   </div>
+    //   <div className="fixed bottom-0 left-0">
+    //     <h2>纹理动画</h2>
+    //     <p>这个demo展示了WebGL中的纹理动画。我们通过改变纹理坐标来实现动画效果：
+    //     纹理会随着时间在四边形上移动和旋转。</p>
+    //   </div>
+    // </div>
+    <div className="demo-container w-screen h-screen py-20 px-4" >
+    <canvas ref={canvasRef} className="w-full h-full" width={400} height={400} />
+    <div className="fixed bottom-0 left-0 p-4">
+      {/* <p>这个demo展示了WebGL中的纹理动画。我们通过改变纹理坐标来实现动画效果： 纹理会随着时间在四边形上移动和旋转。</p> */}
     </div>
+  </div>
   );
 };
 
