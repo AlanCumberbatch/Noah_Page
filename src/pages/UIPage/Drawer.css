@@ -1,0 +1,78 @@
+/* Drawer.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Button to toggle drawer */
+.drawer-toggle-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.drawer-toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Drawer */
+.drawer {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  transition: left 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.drawer.open {
+  left: 0;
+}
+
+.drawer-content {
+  padding-top: 60px;
+}
+
+.drawer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.drawer-content li {
+  margin: 20px 0;
+}
+
+.drawer-content a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.drawer-content a:hover {
+  color: #f0ad4e;
+}
+
+/* Main Content */
+.content {
+  padding: 20px;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.content.drawer-open {
+  margin-left: 250px;
+}
+
+h2 {
+  font-size: 24px;
+}

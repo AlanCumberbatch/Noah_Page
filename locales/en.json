@@ -1,0 +1,23 @@
+{
+  "welcome": "Welcome to the technical documentation!",
+  "content": "Here is the English content for technical documents.",
+  "translation":{
+    "comingSoon": "Everything is COMING !!!",
+    "section1": {
+      "title": "Section 1",
+      "content": "Content for section 1"
+    },
+    "section2": {
+      "title": "Section 2",
+      "content": "Content for section 2"
+    },
+    "section3": {
+      "title": "Section 3",
+      "content": "Content for section 3"
+    },
+    "section4": {
+      "title": "Section 4",
+      "content": "Content for section 4"
+    }
+  }
+}

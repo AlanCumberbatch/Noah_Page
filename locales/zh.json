@@ -1,0 +1,23 @@
+{
+  "welcome": "欢迎查看技术文档！",
+  "content": "这是技术文档的中文内容。",
+  "translation":{
+    "comingSoon": "即将到来！！！",
+    "section1": {
+      "title": "部分 1",
+      "content": "部分 1 的内容"
+    },
+    "section2": {
+      "title": "部分 2",
+      "content": "部分 2 的内容"
+    },
+    "section3": {
+      "title": "部分 3",
+      "content": "部分 3 的内容"
+    },
+    "section4": {
+      "title": "部分 4",
+      "content": "部分 4 的内容"
+    }
+  }
+}

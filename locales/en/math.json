@@ -1,0 +1,45 @@
+{
+  "section1": {
+    "title": "Latex in JSON",
+    "content": ""
+  },
+  "section2": {
+    "title": "Set",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Set Theory is one of the foundational areas of mathematics that deals with the concept of sets, which are collections of objects or elements. In both pure and applied mathematics, sets are fundamental building blocks used to define other mathematical structures. The study of set theory is vital because it forms the foundation for much of modern mathematics, from algebra to topology."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Basic Definitions (基本定义)"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "type": "list-item",
+            "text": "Set (集合): A set is a well-defined collection of distinct objects, considered as an object in its own right. The elements of a set are the objects contained within it. For example, the set of natural numbers less than 5 is:  A = {1, 2, 3, 4}."
+          },
+          {
+            "type": "list-item",
+            "text": "Element (元素): An element is an individual object in a set. For example, 3 is an element of the set A = {1, 2, 3, 4}, written as 3 ∈ A."
+          }
+        ]
+      },
+      {
+        "type": "math",
+        "latex": "A = \\{1, 2, 3, 4\\}"
+      },
+      {
+        "type": "math",
+        "latex": "3 \\in A"
+      }
+    ]
+  },
+  "section3": {
+    "title": "Test",
+    "content": "test"
+  }
+}

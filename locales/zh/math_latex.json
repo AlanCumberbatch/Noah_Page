@@ -1,0 +1,62 @@
+{
+  "section1": {
+    "title": "基础算术运算符",
+    "content": "a + b \\quad a - b \\quad a \\times b \\quad a \\div b"
+  },
+  "section2": {
+    "title": "分数",
+    "content": "\\frac{a}{b}"
+  },
+  "section3": {
+    "title": "根号",
+    "content": "\\sqrt{x} \\quad \\sqrt[n]{x}"
+  },
+  "section4": {
+    "title": "指数与下标",
+    "content": "x^n \\quad x_{i}"
+  },
+  "section5": {
+    "title": "三角函数",
+    "content": "\\sin(x) \\quad \\cos(x) \\quad \\tan(x)"
+  },
+  "section6": {
+    "title": "对数与指数函数",
+    "content": "\\log(x) \\quad \\ln(x) \\quad e^x"
+  },
+  "section7": {
+    "title": "极限、求和、积分",
+    "content": "\\lim_{x \\to \\infty} f(x) \\quad \\sum_{i=1}^{n} i^2 \\quad \\int_{a}^{b} x^2 \\, dx"
+  },
+  "section8": {
+    "title": "大括号、矩阵",
+    "content": "\\{ x \\in \\mathbb{R} \\mid x > 0 \\} \\quad \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}"
+  },
+  "section9": {
+    "title": "关系符号",
+    "content": "a \\leq b \\quad a \\geq b \\quad a \\neq b \\quad a \\approx b"
+  },
+  "section10": {
+    "title": "集合符号",
+    "content": "\\in \\quad \\notin \\quad \\subset \\quad \\subseteq \\quad \\cup \\quad \\cap"
+  },
+  "section11": {
+    "title": "逻辑符号",
+    "content": "\\forall x \\in X, \\quad \\exists y \\in Y, \\quad x \\Rightarrow y \\quad x \\Leftrightarrow y"
+  },
+  "section12": {
+    "title": "希腊字母",
+    "content": "\\alpha \\quad \\beta \\quad \\gamma \\quad \\delta \\quad \\epsilon \\quad \\lambda \\quad \\mu \\quad \\pi"
+  },
+  "section13": {
+    "title": "上下标组合表达式",
+    "content": "\\sum_{i=1}^n x_i \\quad \\prod_{i=1}^n x_i \\quad \\bigcup_{i=1}^n A_i \\quad \\bigcap_{i=1}^n A_ii"
+  },
+  "section14": {
+    "title": "带箭头符号的向量表达式",
+    "content": "\\vec{a} + \\vec{b} = \\vec{c} \\quad \\overrightarrow{AB}"
+  },
+  "section15": {
+    "title": "函数定义和区间表示",
+    "content": "f(x) = \\begin{cases} x^2 & \\text{if } x \\geq 0 \\\\ -x & \\text{if } x < 0 \\end{cases} \\quad [a, b] \\quad (a, b)"
+  }
+}

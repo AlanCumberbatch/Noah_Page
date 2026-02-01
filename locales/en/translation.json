@@ -1,0 +1,31 @@
+{
+  "comingSoon": "Everything is COMING !!!",
+  "section1": {
+    "title": "Section 1",
+    "content": "Content for section 1"
+  },
+  "section2": {
+    "title": "Section 2",
+    "content": "Content for section 2"
+  },
+  "section3": {
+    "title": "Section 3",
+    "content": "Content for section 3"
+  },
+  "section4": {
+    "title": "Section 4",
+    "content": "Content for section 4"
+  },
+  "section5": {
+    "title": "Section 5",
+    "content": "Content for section 4"
+  },
+  "section6": {
+    "title": "Section 6",
+    "content": "Content for section 4"
+  },
+  "section7": {
+    "title": "Section 7",
+    "content": "Content for section 4"
+  }
+}
